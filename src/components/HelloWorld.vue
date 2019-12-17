@@ -101,7 +101,6 @@ export default {
   methods: {
     fetchData() {
       testApi.getList().then(response => {
-        console.log(response.data)
         this.list = response.data
       })
     }
