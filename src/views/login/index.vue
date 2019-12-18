@@ -43,8 +43,8 @@ import {login, getUserInfo} from '@/api/login';
                   if(respUser.flag){
                     //获取到用户信息
                   //保存token 用户信息
-                  localStorage.setItem('vue_systom', JSON.stringify(respUser.data))
-                  localStorage.setItem('vue_systom', JSON.stringify(resp.data.token))
+                  localStorage.setItem('vue_system-user', JSON.stringify(respUser.data))
+                  localStorage.setItem('vue_system-token', JSON.stringify(resp.data.token))
                   //前往首页
                   this.$router.push('/')
                   }else {
