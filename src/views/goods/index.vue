@@ -23,7 +23,7 @@
       </el-form-item>
     </el-form>
     <!-- 列表 -->
-    <el-table :data="list" height="380" border style="width: 100%" highlight-current-row>
+    <el-table :data="list" height="600" border style="width: 100%" highlight-current-row>
       <el-table-column type="index" label="序号" width="60"></el-table-column>
       <el-table-column prop="name" label="商品名称"></el-table-column>
       <el-table-column prop="code" label="商品编码"></el-table-column>
