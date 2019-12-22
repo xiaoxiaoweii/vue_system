@@ -42,10 +42,10 @@
   left: 0px;
   bottom: 0px;
   overflow-y: auto;
-  background-color: #802c2c11;
+  background-color: rgb(189, 189, 176, 0.5);
 }
 .el-menu{
   border-right: none;
-  background-color: #802c2c11;
+  background-color: rgb(184, 184, 170, 0.5);
 }
 </style>

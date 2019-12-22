@@ -15,13 +15,13 @@ export default new Router({
   routes: [
     {
       // 登录页
-      path: '/login',
+      path: '/',
       name: 'login',
       component: Login
     },
     {
       // 基础布局
-      path: '/',
+      path: '/layout',
       name: 'layout',
       component: Layout,
       redirect: '/home', //重定向

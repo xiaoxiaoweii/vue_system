@@ -2,7 +2,7 @@
   <div>
     <div class="header">
       <!-- 左侧logo和标题 -->
-      <a href="#/">
+      <a href="#/home">
         <img class="logo" src="@/assets/logo.png" alt />
         <span class="company">会员管理系统</span>
       </a>
@@ -92,7 +92,7 @@ export default {
           localStorage.removeItem("vue_system-user");
           localStorage.removeItem("vue_system-token");
           //ui到登陆界面
-          this.$router.push("/login");
+          this.$router.push("/");
         } else {
           this.$message({
             message: resp.message,
@@ -131,7 +131,7 @@ export default {
   top: 0px;
   left: 0px;
   right: 0px;
-  background-color: #6aa33b;
+  background-color: rgba(8, 7, 12, 0.5);
 }
 .logo {
   vertical-align: middle;

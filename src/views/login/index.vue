@@ -46,7 +46,7 @@ import {login, getUserInfo} from '@/api/login';
                   localStorage.setItem('vue_system-user', JSON.stringify(respUser.data))
                   localStorage.setItem('vue_system-token', JSON.stringify(resp.data.token))
                   //前往首页
-                  this.$router.push('/')
+                  this.$router.push('/layout')
                   }else {
                     this.$message({
                       message: '输错啦',
@@ -74,12 +74,12 @@ import {login, getUserInfo} from '@/api/login';
 
 <style scoped>
 .login-form {
-  width: 350px;
+  width: 300px;
   /* 上下间距 160px  左右居中*/
   margin: 160px auto;
-  background-color: rgb(255, 255, 255, 0.8);
+  background-color: rgb(255, 255, 255, 0.5);
   padding: 25px;
-  border-radius: 20px;
+  border-radius: 50px;
 }
 .login-container {
   position: absolute;
